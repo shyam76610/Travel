@@ -1,0 +1,939 @@
+  *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: #16a6a5;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    color: white;
+    font-weight: bold;  
+    font-size: large;
+}
+.info,.icon{
+    display: flex;
+}
+
+.phoNumbener,.bt-bt-icon1{
+    margin: 10px;
+}
+.phoNumbener>input{
+    border: none;
+    background-color: #16a6a5;
+    color: white;
+}
+.logo1{
+    display: flex;
+
+    width: 100;
+    margin: 15px;
+    height: 10%;
+    margin-right:50px;
+    }
+    .world{
+        display: flex;
+        margin-left: 130px;
+        align-items: baseline;
+    }
+   .logo-head1{
+    display: flex;
+    align-items: center;
+   }
+
+
+   .nav{
+    margin-left: 50px;
+   }
+   .logo-icon{
+    font-size: 50px;
+    color: #16a6a5 ;
+   }
+   .logo-head>h2{
+    font-size: 50px;
+    color: #16a6a5;
+
+   }
+   .logo-head>h2>span{
+    color: #fdc703;
+    
+   }
+   .nav>p{
+    margin-bottom: 15px;
+   }
+   .logo-head1,.nav>select{
+    border: none;
+
+   }
+   .logo-head1>.nav>input{
+    border: none;
+    background-color: #16a6a5;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    
+   }
+ 
+    
+   .body-image{
+    background-image: url(../assest/images/map1.png);
+    display: flex;
+    margin: 60px;
+    width: 100%;
+   }
+   .map{
+    display: flex;
+   }
+.pra>p{
+    color: hsl(180deg 43.42% 70.2%);
+    font-size: 40px;
+    font-weight: bold;
+}
+.pra>h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.pra>h1>span{
+    color: hsl(180deg 43.42% 70.2%);
+}
+.pra>pre{
+    font-family: 'Courier New', Courier, monospace;
+}
+.pra>.data>select{
+    width: 24em;
+    height: 50px;
+    border: none;
+    border: 1px solid rgb(193, 175, 175);
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+.booknow1{
+    width: 22.3em;
+    height: 30px;
+    border: none;
+    border: 1px solid rgb(193, 175, 175);
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+  .pra>.data1>select{
+
+    width: 24em;
+    height: 50px;
+    border: none;
+    border: 1px solid rgb(193, 175, 175);
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .pra>.data1>.booknow{
+    width: 50em;
+    height: 50px;
+    border: none;
+    border: 1px solid rgb(193, 175, 175);
+    background-color:hsl(179.62deg 97.5% 31.37%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .travel-image>img{
+    width: 450px;
+    height: 450px;
+    margin: 10%;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: #fdc703;
+    
+  }
+  .logo-icon1{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 70px;
+    margin-left: 60px;
+    box-shadow: 1px 1px 20px #7aa3a3;
+    border-radius: 5px;
+
+    
+    
+
+  }
+  .logo-icon1>.symbol{
+    font-size: 40px;
+    padding: 15px;
+    
+    
+  }
+  .text{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .text>p{
+    font-size: 30px;
+    color: #fdc703;
+  }
+.text>h1{
+    font-size: 50px;
+}
+.text>h1>span{
+    color: #16a6a5;
+}
+.text>pre{
+    font-family: 'Courier New', Courier, monospace;
+}
+.text1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 300px;
+  
+}
+.classimage>.image{
+    font-size: 30px;
+    color: #16a6a5;
+    
+}
+.classimage{
+    border: 0px solid #7aa3a3 ;
+    padding: 10px;
+    margin: 10px;
+    box-shadow:  1px 1px 20px #7aa3a3;
+    border-radius: 5px;
+   transition: transform 0.6s ease;
+
+}
+.classimage:hover{
+    transform: translatey(-20px);
+}
+.text0>a{
+    text-decoration: none;
+    color: #16a6a5;
+    padding-top:50px;
+  
+}
+text0>.image,h2,p,a{
+    padding-top: 20px;
+}
+.Destinations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+  .rome-text1{
+    position: relative;
+
+
+  }
+
+.Rome{
+    background-image: url(../assest/images/Rome.jpg);
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+
+    border-radius: 5px;
+}
+.Rometext{
+    position: absolute;
+    border: 1px solid rgb(253, 246, 246);
+    left: 130px;
+    top: 180px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgb(193, 175, 175);
+    
+    
+}
+
+.Moscow{
+    background: url(../assest/images/Moscow.jpg);
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.Moscowtext{
+    position: absolute;
+    border: 1px solid rgb(253, 246, 246);
+    top: 180px;
+    left: 130px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgb(193, 175, 175);
+    
+    
+}
+.London{
+    background: url(../assest/images/London.jpeg);
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.Londontext{
+    position: absolute;
+    border: 1px solid rgb(253, 246, 246);
+    top: 180px;
+    left: 130px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgb(193, 175, 175);
+}
+.Destinations>.Rometext>h5,.Moscowtext>h5,.Londontext>h5{
+    color: #16a6a5;
+
+}
+.Explore{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+  align-items: center;
+ position: relative;
+}
+.Explore-img>img{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Explore-text{
+  justify-content: center;
+  align-items: center;
+}
+.Explore-text>h5{
+    color: #16a6a5;
+    font-size: 25px;
+    margin: 10px;
+}
+.Explore-text>h1{
+    font-size: 50px;
+    margin: 10px;
+}
+.Explore-text>pre{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+.Years{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+    width: 70%;
+    padding: 40px;
+    box-shadow: 1px 1px 20px #7aa3a3;
+    position: absolute;
+    right: 10px;
+    top: 155em;
+    border-radius: 5px;
+    }
+    .years-number>h3{
+        color: #7aa3a3;
+        font-size: 40px;
+        font-weight: bold;
+    }
+ 
+    
+    .pick{
+        display: flex;
+        justify-content: space-around;
+    }
+     .Tourpackages{
+        display: flex;
+        justify-content: space-around;
+     }
+     .Besttour>h5{
+       color: #fdc703;
+       font-size: 25px;
+     }
+     .Besttour>h1{
+        font-size: 50px;
+     }
+     .Besttour>h1>span{
+        color: #16a6a5;
+     }
+     .Besttour>p{
+        font-family: 'Courier New', Courier, monospace;
+     }
+     .Besttour1{
+       margin-top: 30px;
+
+     }
+     .Besttour1>a{
+        text-decoration: none;
+        color: beige;
+        background-color: #7aa3a3;
+        padding: 10px;
+        border-radius: 2px;
+     }
+    .allpackages{
+        display: flex;
+        width: 100;
+        justify-content: space-evenly
+    }
+    .perperson{
+        margin-top: 50px;
+        width: 450px;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit:contain;
+        box-shadow: 2px 5px 2px 5px rgb(236, 233, 226);
+        border-radius: 10px;
+    }
+    .perperson>img{
+        border-radius: 10px 10px 0 0;
+        width: 450px;
+        height: 250px;
+    }
+    .text-text{
+        margin: 30px;
+    }
+    .text-text>h4{
+
+        color: #16a6a5;
+        font-size: 20px;
+    }
+    .text-text>h2{
+        font-size: 30px;
+    }
+    .text-text>p{
+        margin-bottom: 10px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+  .text-text>h5{
+    color: #16a6a5;
+    margin-top: 20px;
+  }
+  .text-text>h5>span{
+    color: black;
+    margin-left:5px ;
+  }
+
+  .lastdeals{
+    background-image: url(../assest/images/top-opacity.png);
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(245, 247, 247, 0.922);
+    box-shadow: 1px 5px white;
+    
+   }
+    .Minute-deale{
+      position: relative;
+    }
+  .Minute1>img,.Minute2>img,.Minute3>img{
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+  }
+  .Minute1{
+  
+  }
+  .deals1{
+    border: 2px solid black;
+    position: absolute;
+    width: 200px;
+    left: 80px;
+    top: 300px;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 0px solid rgb(174, 149, 149);
+    box-shadow: 1px 10px 3px rgb(193, 175, 175);
+    border-radius: 5px;
+  }
+  .deals2{
+    border: 2px solid black;
+    position: absolute;
+    width: 200px;
+
+    left: 80px;
+    top: 300px;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 0px solid rgb(174, 149, 149);
+    box-shadow: 1px 10px 3px rgb(193, 175, 175);
+    border-radius: 5px;
+  }
+  .deals3{
+    border: 2px solid black;
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    width: 200px;
+
+    padding: 10px;
+    background-color: aliceblue;
+    border: 0px solid rgb(174, 149, 149);
+    box-shadow: 1px 10px 3px rgb(193, 175, 175);
+    border-radius: 5px;
+  }
+  .deals1>h3,.deals2>h3,.deals3>h3 {
+    color: #7aa3a3;
+    font-size: bold;
+  }
+  .deals1>h5>span,.deals2>h5>span,.deals3>h5>span {
+    color: #e7d913c6;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .deals1>h6,.deals2>h6,.deals3>h6{
+    font-weight: bold;
+    font-size:15px;
+    color: #16a6a5;
+
+  }
+  .deals1>h6>span,.deals2>h6>span,.deals3>h6>span{
+     font-size: 10px;
+     color:black;
+  }
+  .body-image1{
+    width: 100%;
+    height: 700px;
+   
+
+    margin: 0;
+  }
+  .con{
+    text-align: center;
+    align-content: center;
+    height: 600px;
+    background: url(../assest/images/guides.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+
+    background-size: cover;
+    object-fit: cover;
+
+  }
+  .con>h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #06ffff;
+    margin: 10px;
+  }
+  .con>h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+  }
+  .con>h1>span{
+    color: #fdc703;
+  }
+  .con>p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .con>input{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #06ffff;
+    color: white;
+    font-weight: bold;
+  }
+  .partners{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .partners>.harewood{
+  }
+  .dotted{
+    font-size: 10px;
+    margin: 10px;
+    border: 2px dotted grey;
+  }
+  .guideman{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .Tourguide{
+   margin: 10px;
+  }
+
+
+  
+ .meetour{
+  border: none;
+  width: 350px;
+  height: 300px;
+ 
+ 
+ }
+ .meetour>img{
+  width: 350px;
+  height: 300px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+  margin-top: 10px;
+  
+ }
+  
+
+  .tourname{
+    border-radius: 0px 0px 5px 5px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    background-color: #08b6b6;
+    border: none;
+    padding-top: 10px;
+    
+  }
+  .tourname>h4{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .tourname>p{
+    color: #fdc703;
+    font-weight: bold;
+  }
+  .Talking{
+    background-image: url(../assest/images/map1.png);
+
+    width: 100%;
+    height: 500px;
+  }
+
+  
+  .duoble{
+  text-align: center;
+  
+  }
+  .designation{
+    display: flex;
+    justify-content: space-evenly;
+     padding-top: 90px;  
+  }
+  .duoble>.fa-solid{
+    height: 100px;
+    width: 100px;
+    color: #fdc703;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  .duoble>.fa-regular{
+    color: #fdc703;
+    font-weight: bold;
+  }
+  .duoble>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    object-fit:cover;
+  }
+  .cicrle{
+    width: 300px;
+    position: relative;
+    align-items: baseline;
+  }
+  .cicrle>.var{
+    width: 200px;
+    height: 200px;
+  }
+  .cicrle>.var>.her>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .cicrle>.var>.her1>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 30px;
+
+  }
+  .cicrle>.var1>.her2>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+
+  }
+  .duoble>p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .duoble>.sta>.fa-regular{
+    color: #fdc703;
+    font-weight: bold;
+    margin-top:10px;
+  }
+  .duoble>h3{
+    color: #16a6a5;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .duoble>h6{
+    color: #fdc703;
+    font-size: 15px;
+    font-size: bold;
+  }
+  .discounts1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+  }
+  .discounts{
+    width: 100%;
+    height: 900px;
+    padding: 10px;
+    background-color: rgb(206, 206, 206);
+    margin-top: 20px;
+  }
+
+  .discounts>.discounts1>.island{
+    width: 400px;
+    height: 500px;
+    position: relative;
+
+  }
+  .discounts>.discounts1>.island>.off>img{
+    background-image:url(../assest/images/Maldives.jpg);
+    width: 400px;
+    height: 250px;
+
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+  .island>.offtext{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: -10px;
+    
+    
+  }
+  .discounts1>.island>.offtext>h4{
+    color:#08b6b6;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .discounts1>.island>.offtext>h3{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;    
+
+  }
+  .discounts1>.island>.offtext>h5{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold; 
+  }
+  .discounts1>.island>.offtext>p{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-weight: bold; 
+  }
+  .discounts1>.island>.offtext>h6{
+    padding: 10px;
+    font-weight: bold; 
+    font-size: 25px;
+    color: #08b6b6;
+  }
+  .discounts1>.island>.offtext>h6 >span{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }
+  .island>.offer{
+    height: 20px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+  }
+  .post{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .post>.articles{
+    width: 350px;
+    height: 430px;
+    border: 1px solid rgba(184, 172, 172, 0.774);
+    position: relative;
+     box-shadow:(1px 1px 20px rgb(215, 178, 190));
+     border-radius: 5px;
+
+  }
+  .articles>.technology>img{
+    width: 350px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px 5px 0  0;
+  }
+  .articles>.articlestext{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+
+  }
+  .articles>.no{
+    margin: 30px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .articles>.op{
+    padding: 10px;
+    width: 110px;
+    height: 20px;
+    background-color: #08b6b6;
+    border-radius: 3px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+  }
+  footer{
+    width: 100%;
+    height: 800px;
+    background-color:hsl(216.52deg 54.76% 16.47%);
+  }
+  .imag-footer0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+  }
+  .imag-footer>img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100px;
+    border-radius: 5px;
+    height: 100px;
+
+  }
+  .footer-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 50px;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  .fotter-link>ul,.footer-categories>ul{
+    list-style: none;
+    line-height:2 ;
+  }
+  .log-footer{
+   padding-top: 10px;
+  }
+  .footer-left>.fa-solid .fa-regular{
+    padding-top: 15px;
+    font-size: 4px;
+
+  }
+
+  .footer-news>input{
+    width: 250px;
+    margin-top: 20px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .footer-news>button{
+    margin-top: 20px;
+    background-color: #08b6b6;
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .footer-foot{
+  background-color:hsl(217.14deg 36.84% 22.35%);
+  width: 80%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  margin-left: 150px;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+
+  }
